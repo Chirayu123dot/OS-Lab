@@ -19,11 +19,6 @@ int getLastIndex(int reference[], int start, int value) {
     return -1;
 }
 
-// returns the min of 3 elements
-int getMin(int v1, int v2, int v3) {
-    return v1 < v2 ? (v1 < v3 ? v1 : v3) : (v2 < v3 ? v2 : v3);
-}
-
 int main()
 {
     // ------------------------------ input starts --------------------------
